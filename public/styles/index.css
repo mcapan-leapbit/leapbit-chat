@@ -372,9 +372,7 @@
 }
 
 .message-box {
-  width: 350px;
-  height: 110px;
-  margin: 110px 0 17px;
+  width: 100%;
   background-color: #ffffff;
 }
 .message-box:hover {
@@ -382,6 +380,7 @@
 }
 
 .message-timestamp {
+  margin-left: 6rem;
   font-family: "Rubik", sans-serif;
   font-size: 8px;
   font-weight: normal;
@@ -400,7 +399,7 @@
   border-radius: 100%;
   width: 32px;
   height: 32px;
-  margin: 0 0 0 0;
+  margin-left: 10px;
   padding: 5px 5px 5px 5px;
   background-color: #ececec;
   text-align: center;
@@ -423,7 +422,6 @@
 .profile-name {
   width: 111px;
   height: 19px;
-  margin: 14px 92px 2px 3px;
   font-family: "Rubik", sans-serif;
   font-size: 16px;
   font-weight: 600;
@@ -437,7 +435,6 @@
 .profile-email {
   width: 127px;
   height: 12px;
-  margin: 1px 76px 13px 3px;
   font-family: "Rubik", sans-serif;
   font-size: 10px;
   font-weight: normal;
@@ -463,13 +460,14 @@
 }
 
 .notif-bg {
+  font-size: 0.75rem;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 100%;
-  width: 16px;
-  height: 16px;
-  margin: 0 0 0 0;
+  width: 8px;
+  height: 8px;
+  margin-left: 0.85rem;
   padding: 5px 5px 5px 5px;
   background-color: #edfdf3;
   text-align: center;
@@ -495,11 +493,21 @@
   grid-template-areas: ". .";
 }
 
-.left, .right {
+.left,
+.right {
   flex-grow: 1;
 }
 
 .chat-sender {
   display: grid;
-  grid-template-columns: 13% 77% 10%;
+  grid-template-columns: 13% 83%;
+}
+
+.sender-details {
+  margin-left: 10px;
+  width: 100%;
+}
+
+.chat-bottom {
+  margin-top: 1rem;
 }

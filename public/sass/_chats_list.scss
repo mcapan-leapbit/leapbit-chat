@@ -1,234 +1,245 @@
 .chats-list {
-	width: 350px;
-	height: 956px;
-	margin: 24px 30px 30px;
-	padding: 24px 0 409px;
-	border-radius: 12px;
-	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-	background-color: $background;
+  width: 350px;
+  height: 956px;
+  margin: 24px 30px 30px;
+  padding: 24px 0 409px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  background-color: $background;
 }
 .search-label {
-	width: 73px;
-	height: 12px;
-	margin: 0 109px 4px 0;
-	font-family: $std_font;
-	font-size: 10px;
-	font-weight: normal;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	color: $primary_text;
+  width: 73px;
+  height: 12px;
+  margin: 0 109px 4px 0;
+  font-family: $std_font;
+  font-size: 10px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $primary_text;
 }
 .search-box {
-	width: 182px;
-	height: 32px;
-	margin: 4px 0 0;
-	padding: 9px 112px 9px 12px;
-	border-radius: 6px;
-	border: solid 1px #eee;
-	background-size: 1rem;
-    background-image: url("../../public/assets/images/icon-search.svg");
-    background-position: .5rem .5rem; 
-    background-repeat: no-repeat;
+  width: 182px;
+  height: 32px;
+  margin: 4px 0 0;
+  padding: 9px 112px 9px 12px;
+  border-radius: 6px;
+  border: solid 1px #eee;
+  background-size: 1rem;
+  background-image: url("../../public/assets/images/icon-search.svg");
+  background-position: 0.5rem 0.5rem;
+  background-repeat: no-repeat;
 }
 .search-box::placeholder {
-	width: 40px;
-	height: 14px;
-	margin: 0 0 10px 8px;
-	font-family: $std_font;
-	font-size: 12px;
-	font-weight: normal;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	color: $tertiary_text;
+  width: 40px;
+  height: 14px;
+  margin: 0 0 10px 8px;
+  font-family: $std_font;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $tertiary_text;
 }
 .search-icon {
-	width: 10px;
-	height: 10px;
-	margin: 2px 8px 2px 0;
-	font-size: 10px;
-	font-weight: normal;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	color: $tertiary_text;
+  width: 10px;
+  height: 10px;
+  margin: 2px 8px 2px 0;
+  font-size: 10px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $tertiary_text;
 }
 .status-label {
-	width: 31px;
-	height: 12px;
-	margin: 0 89px 4px 0;
-	font-family: $std_font;
-	font-size: 10px;
-	font-weight: normal;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	color: $primary_text;
+  width: 31px;
+  height: 12px;
+  margin: 0 89px 4px 0;
+  font-family: $std_font;
+  font-size: 10px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $primary_text;
 }
 .status-box {
-	width: 120px;
-	height: 32px;
-	margin: 4px 0 0;
-	padding: 9px 12px;
-	border-radius: 6px;  
-	border: solid 1px #eee;
+  width: 120px;
+  height: 32px;
+  margin: 4px 0 0;
+  padding: 9px 12px;
+  border-radius: 6px;
+  border: solid 1px #eee;
 }
 .status-icon {
-	width: 8px;
-	height: 8px;
-	margin: 3px 8px 3px 0;
-	background-color: $new_text;
+  width: 8px;
+  height: 8px;
+  margin: 3px 8px 3px 0;
+  background-color: $new_text;
 }
 .status-placeholder {
-	width: 36px;
-	height: 14px;
-	margin: 0 35px 0 8px;
-	font-family: $std_font;
-	font-size: 12px;
-	font-weight: normal;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	color: $primary_text;
+  width: 36px;
+  height: 14px;
+  margin: 0 35px 0 8px;
+  font-family: $std_font;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $primary_text;
 }
 .status-divider {
-	width: 350px;
-	height: 1px;
-	margin: 0 0 14px;
-	background-color: $background-message;
+  width: 350px;
+  height: 1px;
+  margin: 0 0 14px;
+  background-color: $background-message;
 }
 .message-box {
-	width: 350px;
-	height: 110px;
-	margin: 110px 0 17px;
-	background-color: $background;
-	&:hover {
-		background-color: $background-message;
-	}
+  width: 100%;
+
+  background-color: $background;
+  &:hover {
+    background-color: $background-message;
+  }
 }
 .message-timestamp {
-	//width: 75px;
-	//height: 9px;
-	//margin: 25px 16px 1px 76px;
-	font-family: $std_font;
-	font-size: 8px;
-	font-weight: normal;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	text-align: left;
-	color: $tertiary_text;
+  //width: 75px;
+  //height: 9px;
+  // margin-right: 2rem;
+
+  margin-left: 6rem;
+  font-family: $std_font;
+  font-size: 8px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: $tertiary_text;
 }
 .profile-bg {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border-radius: 100%;
-	width: 32px;
-	height: 32px;
-	margin: 0 0 0 0;
-	padding: 5px 5px 5px 5px;
-	background-color: #ececec;
-	text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  width: 32px;
+  height: 32px;
+  margin-left: 10px;
+  padding: 5px 5px 5px 5px;
+  background-color: #ececec;
+  text-align: center;
 }
 .profile-initials {
-	width: 17px;
-	height: 14px;
-	font-family: $std_font;
-	font-size: 12px;
-	font-weight: 600;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	color: $brand_primary;
-	padding: 9px 7px 9px 8px;
+  width: 17px;
+  height: 14px;
+  font-family: $std_font;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $brand_primary;
+  padding: 9px 7px 9px 8px;
 }
 .profile-name {
-	width: 111px;
-	height: 19px;
-	margin: 14px 92px 2px 3px;
-	font-family: $std_font;
-	font-size: 16px;
-	font-weight: 600;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	color: $primary_text;
+  width: 111px;
+  height: 19px;
+
+  font-family: $std_font;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $primary_text;
 }
 .profile-email {
-	width: 127px;
-	height: 12px;
-	margin: 1px 76px 13px 3px;
-	font-family: $std_font;
-	font-size: 10px;
-	font-weight: normal;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	color: $tertiary_text;
+  width: 127px;
+  height: 12px;
+
+  font-family: $std_font;
+  font-size: 10px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $tertiary_text;
 }
 .message-text {
-	width: 318px;
-	height: 32px;
-	margin: 7px 16px 16px;
-	font-family: $std_font;
-	font-size: 10px;
-	font-weight: normal;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: 1.7;
-	letter-spacing: normal;
-	color: $secondary_text;
+  width: 318px;
+  height: 32px;
+  margin: 7px 16px 16px;
+  font-family: $std_font;
+  font-size: 10px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.7;
+  letter-spacing: normal;
+  color: $secondary_text;
 }
 .notif-bg {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border-radius: 100%;
-	width: 16px;
-	height: 16px;
-	margin: 0 0 0 0;
-	padding: 5px 5px 5px 5px;
-	background-color: $new_background;
-	text-align: center;
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  width: 8px;
+  height: 8px;
+  margin-left: 0.85rem;
+  padding: 5px 5px 5px 5px;
+  background-color: $new_background;
+  text-align: center;
 }
 .notif-number {
-	width: 7px;
-	//height: 12px;
-	font-family: $std_font;
-	font-size: 10px;
-	font-weight: 600;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	color: $new_text;
+  width: 7px;
+  //height: 12px;
+  font-family: $std_font;
+  font-size: 10px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $new_text;
 }
 
-.chats-top{
-	display: grid; 
-	grid-template-columns: 1fr 1fr; 
-	grid-template-rows: 1fr; 
-	gap: 0px 0px; 
-	grid-template-areas: 
-		". ."; 
+.chats-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: ". .";
 }
 
-.left,.right {
-  	flex-grow: 1;
+.left,
+.right {
+  flex-grow: 1;
 }
 
-.chat-sender{
-	display: grid;
-	grid-template-columns: 13% 77% 10%;
+.chat-sender {
+  display: grid;
+  grid-template-columns: 13% 83%;
+}
+
+.sender-details {
+  margin-left: 10px;
+  width: 100%;
+}
+
+.chat-bottom {
+  margin-top: 1rem;
 }
