@@ -52,7 +52,8 @@
           <div class="active-box">
             <span class="status-label">Status</span>
             <div class="status-box">
-              <span class="status-placeholder">Active</span> <!-- <img src="/public/assets/images/icon-chevron.svg" class="status-chevron"></img> -->
+              <span class="status-icon"></span>
+              <span class="status-placeholder">Active</span> <!-- <img src="../../public/assets/images/icon-chevron.svg" class="status-chevron"></img> -->
             </div>
           </div>
         </div>
@@ -201,7 +202,7 @@
             </div>
           </div>
           <div class="chat-body-user">
-            <div class="chat-user-logo"><img src="/public/assets/images/avatar.webp" alt="company logo" class="chat-body-logo"></div>
+            <div class="chat-user-logo"><img src="../../public/assets/images/avatar.webp" alt="company logo" class="chat-body-logo"></div>
             <div class="chat-body-msg-user">
               <p class="chat-body-rectangle-user remove-marg">Ut vel odio sed dui tempor viverra eget in felis. Cras blandit lectus ex. Donec non sollicitudin ante. Nullam vitae leo a nulla gravida placerat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><span class="chat-body-timestamp user-timestamp">July 10, 2022 | 10:10</span>
             </div>
@@ -209,7 +210,7 @@
         </div>
         <div class="send-msg">
           <form action="post" class="chat-entry">
-            <input type="text" class="chat-entry-text" placeholder="Upišite svoju poruku..."> <input type="image" name="submit" src="/public/assets/images/icon-send.svg" class="chat-send-icon" alt="send message">
+            <input type="text" class="chat-entry-text" placeholder="Upišite svoju poruku..."> <input type="image" name="submit" src="..//public/assets/images/icon-send.svg" class="chat-send-icon" alt="send message">
           </form>
         </div>
       </div>
