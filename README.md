@@ -1,10 +1,24 @@
-# Leapbit-Chat
-A simple customer support chat system.
+# leapbit-chat
 
-## Automatski Sass
+## Project setup
+```
+npm install
+```
 
-npm install gulp gulp-sass sass --save-dev
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-## Aktivacija
+### Compiles and minifies for production
+```
+npm run build
+```
 
-npm run gulp
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
