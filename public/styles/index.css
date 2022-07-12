@@ -63,6 +63,10 @@
   margin: 0;
 }
 
+body {
+  margin: 0;
+}
+
 .sidebar {
   height: 100%;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
